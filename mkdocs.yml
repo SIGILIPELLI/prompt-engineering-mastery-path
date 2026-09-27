@@ -1,0 +1,113 @@
+site_name: Prompt Engineering Mastery Path
+site_description: A structured, vendor-neutral prompt engineering program — designing, testing, evaluating, securing and maintaining prompts for everyday users and developers.
+site_url: https://sigilipelli.github.io/prompt-engineering-mastery-path/
+repo_url: https://github.com/sigilipelli/prompt-engineering-mastery-path
+repo_name: prompt-engineering-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Entry":
+      - Overview: level-1/index.md
+      - "01 · How a Model Reads Your Prompt": level-1/01-how-llms-read-prompts.md
+      - "02 · Anatomy of a Good Prompt": level-1/02-anatomy-of-a-prompt.md
+      - "03 · Clarity & Specificity": level-1/03-clarity-specificity.md
+      - "04 · Giving Context": level-1/04-giving-context.md
+      - "05 · Roles & Personas — and Their Limits": level-1/05-roles-personas.md
+      - "06 · Few-Shot Examples": level-1/06-few-shot-examples.md
+      - "07 · Asking for a Format": level-1/07-output-formatting.md
+      - "08 · Iterating on a Prompt": level-1/08-iterating-on-prompts.md
+      - "09 · Failure Modes: Hallucination, Verbosity, Refusal": level-1/09-failure-modes.md
+      - "10 · Project — A Reusable Prompt, Before & After": level-1/10-project-reusable-prompt.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · Reasoning Prompts & Chain-of-Thought": level-2/01-reasoning-prompts.md
+      - "02 · Decomposition & Prompt Chaining": level-2/02-decomposition-chaining.md
+      - "03 · Structured Output: JSON & Schemas": level-2/03-structured-output.md
+      - "04 · System Prompts": level-2/04-system-prompts.md
+      - "05 · Controlling Tone, Length & Style": level-2/05-tone-length-style.md
+      - "06 · Extraction & Classification Prompts": level-2/06-extraction-classification.md
+      - "07 · Summarization Prompts": level-2/07-summarization.md
+      - "08 · Prompt Templates & Variables": level-2/08-templates-variables.md
+      - "09 · Transformation Prompts: Rewrite, Translate, Convert": level-2/09-transformation-prompts.md
+      - "10 · Project — A Support-Ticket Triage Chain": level-2/10-project-triage-chain.md
+  - "Level 3 · Advanced":
+      - Overview: level-3/index.md
+      - "01 · Evaluating Prompts: Test Sets & Rubrics": level-3/01-evaluating-prompts.md
+      - "02 · LLM-as-Judge and Its Biases": level-3/02-llm-as-judge.md
+      - "03 · A/B Testing Prompts": level-3/03-ab-testing-prompts.md
+      - "04 · Prompt Injection & Jailbreaks (Defensive View)": level-3/04-prompt-injection.md
+      - "05 · Guardrails Around Prompts": level-3/05-guardrails.md
+      - "06 · Prompting for Tool & Function Calling": level-3/06-tool-calling-prompts.md
+      - "07 · Long-Context Strategies": level-3/07-long-context.md
+      - "08 · Multimodal Prompting": level-3/08-multimodal-prompting.md
+      - "09 · Sampling Settings & Determinism": level-3/09-sampling-settings.md
+      - "10 · Project — A Small Prompt Eval Harness": level-3/10-project-eval-harness.md
+  - "Level 4 · Master":
+      - Overview: level-4/index.md
+      - "01 · Prompts as Production Artifacts": level-4/01-prompts-in-production.md
+      - "02 · Regression Testing Prompts": level-4/02-regression-testing.md
+      - "03 · Cost & Latency Tradeoffs": level-4/03-cost-latency.md
+      - "04 · Prompting for Agents": level-4/04-prompting-agents.md
+      - "05 · Prompting for Code": level-4/05-prompting-for-code.md
+      - "06 · Prompting for Data Analysis & Writing": level-4/06-data-and-writing.md
+      - "07 · Ethics, Bias & Responsible Prompting": level-4/07-ethics-bias.md
+      - "08 · Team Prompt Libraries & Style Guides": level-4/08-team-prompt-libraries.md
+      - "09 · When Not to Prompt: RAG & Fine-Tuning": level-4/09-beyond-prompting.md
+      - "10 · Capstone — A Production Prompt Package": level-4/10-capstone.md
