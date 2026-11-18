@@ -59,7 +59,7 @@ relied on.
 This does not make hallucination impossible, but it gives the model an explicit,
 acceptable alternative to guessing — and asking for a quote gives *you* a way to check.
 Answering questions over large document collections is its own discipline: see the
-[RAG Mastery Path](https://sigilipelli.github.io/rag-mastery-path/).
+[RAG Mastery Path](https://learnmasterypath.com/rag-mastery-path/).
 
 ## How much context is enough?
 

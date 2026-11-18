@@ -62,9 +62,9 @@ hosted fine-tuning services some providers offer) needs:
 - a plan for re-training when the base model is updated or retired.
 
 The mechanics are covered in the
-[LLM Dev Mastery Path](https://sigilipelli.github.io/llm-dev-mastery-path/); the broader
+[LLM Dev Mastery Path](https://learnmasterypath.com/llm-dev-mastery-path/); the broader
 trade-offs are in the RAG course's
-[fine-tuning vs RAG lesson](https://sigilipelli.github.io/rag-mastery-path/level-4/08-finetuning-vs-rag/).
+[fine-tuning vs RAG lesson](https://learnmasterypath.com/rag-mastery-path/level-4/08-finetuning-vs-rag/).
 
 ## Prompting doesn't go away
 

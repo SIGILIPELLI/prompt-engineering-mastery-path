@@ -82,7 +82,7 @@ job. Treat prompt-level defences as one layer, never as the security boundary.
   yourself, at a descriptive level ("a support ticket that asks the assistant to reveal
   its system prompt"), and check your app's behaviour.
 - Red-team before launch and after significant changes. The
-  [LLM Dev Mastery Path](https://sigilipelli.github.io/llm-dev-mastery-path/) covers
+  [LLM Dev Mastery Path](https://learnmasterypath.com/llm-dev-mastery-path/) covers
   security and red-teaming at the platform level.
 
 ## Worked example: hardening an email summarizer

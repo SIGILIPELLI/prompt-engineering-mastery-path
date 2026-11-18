@@ -8,7 +8,7 @@ Many models can call **tools** (also called functions): you describe available
 operations — search, look up an order, run a calculation — and the model responds with a
 structured request to call one, which your code executes and returns. How to wire this up
 in each provider's API is covered in the
-[LLM Dev Mastery Path](https://sigilipelli.github.io/llm-dev-mastery-path/). This lesson
+[LLM Dev Mastery Path](https://learnmasterypath.com/llm-dev-mastery-path/). This lesson
 is about the part that's pure prompt engineering: **tool descriptions are prompts**, and
 their quality decides whether the model picks the right tool with the right arguments.
 

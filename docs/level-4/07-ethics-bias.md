@@ -86,7 +86,7 @@ without drawing attention to them.
   organization's policy and the provider's data-use terms.
 - Anonymize examples and test cases (Level 1 lesson 06).
 - Don't use models to profile or infer sensitive characteristics about individuals.
-  The [AI Tools Mastery Path](https://sigilipelli.github.io/ai-tools-mastery-path/)
+  The [AI Tools Mastery Path](https://learnmasterypath.com/ai-tools-mastery-path/)
   covers data-handling policy for teams in more depth.
 
 ## Transparency and honesty

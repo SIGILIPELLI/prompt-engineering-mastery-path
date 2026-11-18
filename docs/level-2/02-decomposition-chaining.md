@@ -142,7 +142,7 @@ that checks each step separately are part of the pattern, not optional extras.
 
 Chains are the simplest form of what are often called *workflows*; when the model itself
 decides which step to run next, you are building an agent (Level 4 lesson 04, and in
-depth in the [LLM Dev Mastery Path](https://sigilipelli.github.io/llm-dev-mastery-path/)).
+depth in the [LLM Dev Mastery Path](https://learnmasterypath.com/llm-dev-mastery-path/)).
 
 ## Common mistakes
 

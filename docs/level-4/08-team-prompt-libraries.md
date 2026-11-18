@@ -121,7 +121,7 @@ Lint rules are heuristics; treat hits as prompts for review, not automatic rejec
 5. Track adoption informally (which entries get used, which get feedback) and prune.
 
 Wider organizational rollout — training, governance, and change management — is covered
-in the [AI Tools Mastery Path](https://sigilipelli.github.io/ai-tools-mastery-path/).
+in the [AI Tools Mastery Path](https://learnmasterypath.com/ai-tools-mastery-path/).
 
 ## How It Actually Works
 

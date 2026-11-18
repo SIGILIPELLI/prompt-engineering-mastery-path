@@ -77,7 +77,7 @@ get neglected — use **map-reduce**:
 A variant, **refine**, walks the document in order, updating a running summary with each
 new section — better for narratives, slower because it's sequential. Chunking details
 (where to split, overlap) are covered in Level 3 lesson 07 and, for retrieval systems,
-the [RAG Mastery Path](https://sigilipelli.github.io/rag-mastery-path/).
+the [RAG Mastery Path](https://learnmasterypath.com/rag-mastery-path/).
 
 ## Worked example: meeting notes for someone who was absent
 

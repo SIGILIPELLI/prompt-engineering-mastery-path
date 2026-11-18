@@ -7,7 +7,7 @@ description: "Write instructions for LLM agents that plan and act over many step
 An **agent** is a model running in a loop: it looks at the goal and the current state,
 decides on an action (usually a tool call), sees the result, and decides again, until it
 finishes or gives up. Building the loop — the API calls, tool execution, memory — is
-covered in the [LLM Dev Mastery Path](https://sigilipelli.github.io/llm-dev-mastery-path/).
+covered in the [LLM Dev Mastery Path](https://learnmasterypath.com/llm-dev-mastery-path/).
 This lesson is about the prompt that steers it. Agent prompts are different from
 single-turn prompts because the model will make *many* decisions you won't see before
 they happen.

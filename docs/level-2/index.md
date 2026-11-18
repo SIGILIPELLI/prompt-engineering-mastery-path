@@ -17,7 +17,7 @@ project that combines several techniques into a small pipeline.
 From here on, lessons include short Python examples. They use only the standard
 library and a `fake_model()` stand-in so they run without an API key; swap in a real
 model call when you're ready. How to call specific provider APIs is covered in the
-[LLM Dev Mastery Path](https://sigilipelli.github.io/llm-dev-mastery-path/) — this course
+[LLM Dev Mastery Path](https://learnmasterypath.com/llm-dev-mastery-path/) — this course
 stays focused on what goes *into* the call.
 
 ## Modules

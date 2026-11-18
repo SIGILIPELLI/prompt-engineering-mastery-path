@@ -75,7 +75,7 @@ corpus, don't paste everything:
 - **Map-reduce** (Level 2 lesson 07): process chunks independently, then combine.
 - **Retrieval (RAG):** index the documents and include only the relevant chunks per
   question. Covered in depth in the
-  [RAG Mastery Path](https://sigilipelli.github.io/rag-mastery-path/).
+  [RAG Mastery Path](https://learnmasterypath.com/rag-mastery-path/).
 - **Prompt caching:** if the same long prefix is reused across many requests, several
   providers can cache it to cut cost and latency (Level 4 lesson 03).
 

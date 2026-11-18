@@ -35,4 +35,4 @@ fine-tuning instead? — and a capstone that packages a production-ready prompt 
 - Levels 1–3, especially evaluation (L3·01–03) and the eval harness project (L3·10),
   which Level 4 reuses.
 - Basic familiarity with Git is helpful for lessons 01–02 and 08; the
-  [GitHub & Git Mastery Path](https://sigilipelli.github.io/github-mastery-path/) covers it.
+  [GitHub & Git Mastery Path](https://learnmasterypath.com/github-mastery-path/) covers it.
