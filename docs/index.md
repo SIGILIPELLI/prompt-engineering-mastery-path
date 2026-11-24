@@ -1,6 +1,6 @@
 ---
 title: "Free Prompt Engineering Course: Design, Test & Evaluate LLM Prompts"
-description: "Free vendor-neutral prompt engineering course — 40 lessons on prompt design, few-shot, JSON output, chaining, evals, injection defense and production prompts."
+description: "Free vendor-neutral prompt engineering course — 36 lessons and 4 projects on prompt design, few-shot, JSON output, chaining, evals, injection defense and production prompts."
 ---
 
 # Prompt Engineering Mastery Path
